@@ -4,11 +4,11 @@
 Creación dun entorno de desenvolvemento e producción con Apache e Nginx. Todo creado a través de contedores Docker.
 ## Datos .env
 
-- **MYSQL_ROOT_PASSWORD=abc123.**
-- **MYSQL_DATABASE=prestashop**
-- **MYSQL_USER=user**
-- **MYSQL_PASSWORD=abc123.**
+- **MYSQL_ROOT_PASSWORD=o teu contrasinal**
+- **MYSQL_DATABASE=o nome da tua bd**
+- **MYSQL_USER=o teu nome de usuario**
+- **MYSQL_PASSWORD=o teu contrasinal de usuario**
 
-- **SERVER_NAME=alleracunajuliolamplemp.casacam.net**
-- **CERTIFICADO_FILE=julio.lan.pem**
-- **CERTIFICADO_KEY=julio.lan.key**
+- **SERVER_NAME=o teu servername**
+- **CERTIFICADO_FILE=o teu certificado**
+- **CERTIFICADO_KEY=a tua chave**
