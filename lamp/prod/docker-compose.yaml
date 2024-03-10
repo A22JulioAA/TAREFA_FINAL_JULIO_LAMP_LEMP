@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web: 
+    build: apache
+    env_file:
+      - .env
+    volumes:
+      - ./app:/app
+      - ./apache/julio.lan.conf:/etc/apache2/sites-enabled/julio.lan.conf
+      - ./apache/certificados:/certificados
+    ports:
+      - 80:80
+      - 443:443
