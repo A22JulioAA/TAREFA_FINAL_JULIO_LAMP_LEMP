@@ -1,0 +1,30 @@
+version: '3'
+services:
+  web:
+    image: nginx:latest
+    env_file:
+      - .env 
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./app:/app
+      - ./nginx/julio.conf.template:/etc/nginx/templates/julio.conf.template
+      - ./nginx/certificados:/certificados
+  php:
+    build: php
+    env_file:
+      - .env
+    volumes:
+      - ./app:/app
+      - ./php/www.conf:/etc/php/8.2/fpm/pool.d/www.conf
+  bd:
+    image: mysql
+    env_file:
+      - .env 
+    volumes:
+      - ./bd/backup.sql:/docker-entrypoint-initdb.d/backup.sql
+      - datos:/var/lib/mysql
+      - ./bd:/bd
+volumes:
+  datos:
