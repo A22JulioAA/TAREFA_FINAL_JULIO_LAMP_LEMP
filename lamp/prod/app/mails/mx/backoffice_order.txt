@@ -1,0 +1,13 @@
+ 
+
+{shop_url}
+
+Hola {firstname} {lastname},
+
+Una nueva orden ha sido generada.
+
+Haga clic en: {order_link} para finalizar el pago.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

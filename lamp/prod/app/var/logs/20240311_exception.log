@@ -1,0 +1,2 @@
+*ERROR* 	v8.1.4	2024/03/11 - 10:15:30: Link to database cannot be established: SQLSTATE[HY000] [2002] Network is unreachable at line 119 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.4	2024/03/11 - 10:15:38: Link to database cannot be established: SQLSTATE[HY000] [2002] Network is unreachable at line 119 in file classes/db/DbPDO.php
