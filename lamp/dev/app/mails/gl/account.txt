@@ -1,0 +1,29 @@
+ 
+
+{shop_url}
+
+Ola {firstname} {lastname},
+
+Graciñas por creares unha conta en {shop_name}.
+
+Your login details on {shop_name}
+
+Velaquí tes os teus datos de acceso:
+
+Email address: {email}
+
+Consellos Importantes de Seguridade:
+
+1. Mantén sempre a salvo os datos da túa conta.
+
+2. Nunca reveles os teus datos de acceso a ningúen.
+
+3. Muda o teu contrasinal regularmente.
+
+4. Se sospeitas que alguén está a emprega-la túa conta ilegalmente, por favor, notifícanolo decontado.
+
+You can now place orders on our store: [{shop_name}]({shop_url})
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

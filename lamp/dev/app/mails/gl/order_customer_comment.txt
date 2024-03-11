@@ -1,0 +1,19 @@
+ 
+
+{shop_url}
+
+Ola,
+
+Message from customer
+
+Recibiches unha nova mensaxe respecto á encomenda coa referencia {order_name}.
+
+Clienta: {firstname} {lastname} ({email})
+
+Mensaxe da clienta:
+
+{message}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)
